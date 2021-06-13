@@ -1,0 +1,264 @@
+@import url("fontawesome-free/css/all.css");
+@import url("framework.css");
+
+
+
+
+
+
+@media(max-width:768px){
+
+
+
+    .mainLogo span {
+        padding: 0px 15px;
+    }
+
+    .topBerSec {
+        display: none;
+    }
+    
+    nav.navbar {
+        overflow: hidden;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .navbarMenu {
+        background: #001225ce;
+        width: 100%;
+        text-align: center;
+        /*display: none;
+        */transition: 1s;
+        display: none;
+        position: absolute;
+        top: 80px;
+        z-index: 2;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+}
+    .showMenu{
+        display: block;
+        
+    }
+    .navbarMenu ul li {
+        float: none;
+        border-bottom: 1px solid #dddddd26;
+        margin: 0;
+        padding: 20px 0px;
+  
+    }
+    
+    .navbarMenu ul li i {
+        display: none;
+    }
+    .navbarMenu ul li a {
+        color: #fff;
+    }
+    
+    .navbarMenu ul li:hover a {
+        color: #ff5200;
+    }
+    
+    .navbarMenu ul li:last-child {
+        border-bottom: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+/* ------------- show/hide icon---------- */
+
+    #menuBarIcon {
+        width: 50px;
+        margin-top: 30px;
+        font-size: 25px;
+        display: block !important;
+        
+    }
+    #menuBarIcon i{
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+/* ------------- */
+
+.homeSlider {
+    background-image: url(images/sliderBg/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 550px;
+    background-position: -500px 0px;
+}
+
+.sliderTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.sliderTitle h2 {
+    font-size: 30px;
+    line-height: 42px;
+    text-shadow: 5px 0px 7px #333;
+}
+
+.sliderTitle p {
+    width: 90%;
+    margin: 20px auto;
+    text-shadow: 2px 0px 5px #333;
+}
+
+/* --------serviceses boxes------------ */
+
+.singleBox {
+    margin-bottom: 0;
+    width: 90%;
+    margin: 30px auto 0px auto;
+}
+.singleBox:first-child {
+    margin-top: 85px;
+}
+/* -------------work site start here!--------------------- */
+
+
+
+.workImg {
+    width: 400px;
+    margin: 0px 45px;
+}
+
+.workImg img {
+    width: 100%;
+}
+
+.wordWrapper {
+    width: 100%;
+    margin: 45px auto;
+    text-align: center;
+}
+
+.wordDetails {
+    text-align: center;
+    margin: 0px -64px;
+}
+
+
+.wordDiscription h2 {margin-top: 30px;font-size: 25px;}
+
+.wordDiscription p {
+    font-size: 14px;
+    width: 83%;
+    margin: 25px auto;
+}
+
+ .teamFacilites { 
+    margin: auto;
+    display: block;
+    /* margin-right: -90px; */
+    /* display: -webkit-inline-box; */
+
+ } 
+
+ /* ---------------counding---------- */
+
+    
+ .iconSingleBox {
+    margin: 80px 0px;
+}
+
+.iconSingleBox span {
+    font-size: 15px;
+}
+.iconWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* --------------------- */
+
+.postWrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.singlePost {
+    width: 362px;
+}
+
+.singlePost .postDis {margin-bottom: 20px;}
+
+
+.tableWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+/* ----------------------------------- */
+.singleTable {
+    margin-top: 20px;
+}
+.singleTable:last-child {
+    width: 85%;
+    margin: 20px 7px 0px 8px;
+    text-align: center;
+}
+}
+
+
+.wordBtn button {
+    padding: 15px 75px;
+    
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:499px){
+
+ /* ---------------counding---------- */
+
+}
+
+
+
+
+
+
+/* ------------------------- */
+
+
+
+#menuBarIcon {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
