@@ -1,0 +1,579 @@
+
+@import url("fontawesome-free/css/all.css");
+@import url("framework.css");
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: fantasy; */
+    box-sizing: border-box;
+    
+}
+button:hover{
+background: var(--btnHoverBg);
+}
+button{
+    background: var(--oneFontColor);
+    color: var(--allFontColor);
+    padding: 14px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor:pointer;
+    transition: 0.1s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+:root{
+
+    --black: #000;
+    --bgGray: #f5f5f5;
+    --oneFontColor: #ff5200;
+    --allFontColor: #fff;
+    --btnHoverBg: #521b00e6;
+    --iconColor: #2b2b2b;
+    --borderColor: #999;
+    --textColor: #666;
+    --boxShadow: #ddd;
+
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+/* ==============header top start here============! */
+.topBerSec {
+    background: var(--bgGray);
+}
+.topData {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    flex-wrap: wrap;
+}
+
+.number_email {
+    display: flex;
+    flex: wrap;
+}
+
+.phoneNUm {
+    padding-right: 15px;
+    border-right: 1px solid var(--borderColor);
+}
+
+.emailAdd {
+    padding-left: 15px;
+}
+
+.phoneNUm i {
+
+    color: var(--oneFontColor);
+}
+
+.emailAdd i {
+
+    color: var(--oneFontColor);
+}
+
+.socialLinks a {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    color: var(--iconColor);
+    border-right: 1px solid var(--borderColor);
+}
+.socialLinks a:last-child {
+    border-right: none;
+}
+.socialLinks a:last-child {
+    padding-right: 0px;
+}
+.socialLinks a:hover {
+    color: var(--oneFontColor);
+}
+
+
+ /* --------------navbar start here!------------- */
+
+
+
+.navbarAllItems {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mainLogo {
+    font-size: 32px;
+    font-family: Cooper;
+    padding: 22px 0px;
+    color: var(--black);
+    font-weight: 900;
+}
+
+.mainLogo span::first-letter {
+    color: var(--oneFontColor);
+}
+
+.navbarMenu ul {
+    list-style: none;
+}
+
+.navbarMenu ul li {
+    float: left;
+    padding: 30px 0px;
+    margin: 0px 13px;
+}
+
+.navbarMenu ul li a {
+    text-decoration: none;
+    color: var(--textColor);
+    font-family: fantasy;
+    font-size: 18px;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+.navbarMenu ul li a:hover {
+    color: var(--oneFontColor);
+}
+li.f1 a {
+    color: var(--oneFontColor) !important;
+}
+.navbarMenu ul li:last-child {
+    margin-right: 0;
+}
+/* ==============header top end here============! */
+
+/* <!-- =============homeSlider section start here!================== --> */
+
+
+.homeSlider {
+    background-image: url(../images/sliderBg/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 550px;
+    background-position: 0px -40px;
+}
+
+.sliderTitle {
+    width: 600px;
+    float: left;
+    transform: translate(0, 50%);
+    -webkit-transform: translate(0, 50%);
+    -moz-transform: translate(0, 50%);
+    -ms-transform: translate(0, 50%);
+    -o-transform: translate(0, 50%);
+}
+
+.sliderTitle h2 {
+    color: var(--allFontColor);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.sliderTitle p {
+    color: var(--allFontColor);
+    line-height: 25px;
+    width: 372px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+/* <!-- =============homeSlider section end here!================== --> */
+
+
+
+/* <!-- =============Services-ARCHITECTURE & ENGINEERING start here!================== --> */
+
+
+
+.singleBox {
+    width: 240px;
+    background: var(--allFontColor);
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 80px 0px;
+    border-radius: 5px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.singleBox:hover {
+    background: var(--oneFontColor);
+}
+.singleBox:hover i {
+    color: var(--allFontColor);
+}
+.singleBox:hover h2 {
+    color: var(--allFontColor);
+}
+.singleBox:hover p {
+    color: var(--allFontColor);
+}
+.singleBox:hover .srvLearnMore a {
+    color: var(--allFontColor);
+}
+.boxwrapper {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services {
+    background: var(--bgGray);
+}
+
+
+.singleBox .sBoxIcon {
+    font-size: 45px;
+    color: var(--oneFontColor);
+    padding: 25px 0px 35px 0px;
+    transition: 0.3s;
+
+}
+
+.singleBox h2 {
+    font-weight: 700;
+    color: var(--textColor);
+    transition: 0.3s;
+    line-height: 30px;
+}
+
+.singleBox p {
+    color: var(--textColor);
+    font-size: 14px;
+    padding: 25px 0px;
+    transition: 0.3s;
+    line-height: 25px;
+}
+.singleBox .srvLearnMore a {
+    color: var(--oneFontColor);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+.srvLearnMore {
+    margin-bottom: 25px;
+}
+/* <!-- =============Services-ARCHITECTURE & ENGINEERING end here!================== --> */
+
+
+
+
+/* <!-- ==========work with our team start here!================ --> */
+
+
+
+.wordWrapper {
+    overflow: hidden;
+    margin: 80px 0px;
+}
+
+.workImg img {width: 100%;height: 410px;}
+
+.workImg {
+    width: 550px;
+    float: left;
+}
+
+.wordDetails {
+    width: 550px;
+    float: left;
+    padding-left: 65px;
+    box-sizing: border-box;
+}
+
+.wordDiscription h2 {
+    font-size: 30px;
+}
+
+.wordDiscription p {
+    color: var(--textColor);
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+
+.teamFacilites {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.teamFacilites ul {
+    list-style: none;
+}
+
+.teamFacilites ul li {
+    line-height: 35px;
+}
+
+.teamFacilites ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--textColor);
+}
+.teamFacilites ul li a:hover {
+    color: var(--oneFontColor)
+}
+
+/* <!-- ==========work with our team end here!================ --> */
+
+
+
+/* <!-- ==================why choos us start here======================== --> */
+
+
+section.whyCoosUs {
+    background-image: linear-gradient(rgb(0 0 0 / 55%), rgb(0 0 0 / 55%)),url(../images/sliderBg/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.iconWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.iconSingleBox i {
+    color: var(--allFontColor);
+    font-size: 45px;
+}
+
+.iconSingleBox {
+    margin: 130px 0px;
+}
+
+.iconSingleBox h2 {
+    color: var(--allFontColor);
+    font-weight: 800;
+    font-size: 43px;
+    margin: 14px 0px;
+}
+
+.iconSingleBox span {
+    color: var(--allFontColor);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* <!-- ==================why choos us end here======================== --> */
+
+
+
+/* <!-- ========================blog post start here!=============== --> */
+
+/* -------------section post title start here------------------- */
+.sectionTitle {
+    width: 430px;
+    text-align: center;
+    margin: 80px auto 80px auto;
+}
+
+.sectionTitle h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: arial;
+    position: relative;
+}
+
+.sectionTitle p {
+    color: var(--textColor);
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.sectionTitle h2:after {
+    content: "";
+    width: 70px;
+    background: var(--oneFontColor);
+    border-bottom: 3px solid var(--oneFontColor);
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    }
+/* -------------section post title start here------------------- */
+
+
+
+section.blogPost {
+    background: var(--bgGray);
+    overflow: hidden;
+}
+
+.postWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px auto 80px auto;
+}
+
+.singlePost {
+    width: 260px;
+}
+
+.singlePost img {
+    width: 100%;
+}
+
+.postDis h4 {
+    margin: 15px 0px;
+    font-size: 18px;
+}
+
+.postDis p {
+    line-height: 25px;
+    color: var(--textColor);
+}
+
+
+
+/* <!-- ========================blog post end here!=============== --> */
+
+
+/* <!-- ========================Table List start here!=============== --> */
+
+
+.tableWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.singleTable {
+    /* border: 1px solid; */
+    padding: 30px 28px;
+    box-shadow: 0px 0px 30px 5px var(--boxShadow);
+    border-radius: 5px;
+    width: 280px;
+}
+.tableAmount span {
+    font-size: 25px;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+.tableAmount b.span1 {
+    padding-left: 5px;
+    color: var(--oneFontColor);
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+}
+.tableAmount h2 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+.tableAmount h2:first-letter {
+    color: var(--oneFontColor);
+}
+
+.tableList ul {
+    list-style: none;
+}
+
+.tableList ul li i {
+    font-size: 15px;
+    color: var(--oneFontColor);
+}
+
+.tableList ul li {
+    color: var(--textColor);
+    line-height: 40px;
+    font-size: 17px;
+}
+
+.tableList {
+    margin: 15px 0px;
+}
+button.tableBtn {
+    margin: 5px 0px;
+}
+
+/* <!-- ========================Table List end here!=============== --> */
+
+
+
+
+
+/* 
+
+@media (max-width:768px){
+
+.container {
+    width: 100%;
+}
+
+.navbarMenu {
+    background: #001225;
+    width: 300px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 4;
+    height: 605px;
+}
+
+.navbarMenu ul li {
+    float: none;
+    border-bottom: 1px solid #ffffff1f;
+    padding: 12px 0px;
+    margin: 0;
+}
+
+.navbarMenu ul li:hover a {
+    color: #ff5200;
+}
+
+.navbarMenu ul li a {
+    padding: 22px;
+}
+
+.navbarMenu ul li:last-child a {display: none;}
+
+.navbarMenu ul li:nth-child(6) {
+
+}
+
+.navbarMenu ul li:last-child {
+    border: none;
+}
+} */
+
+
+
+
+
+
+
+
+
+
